@@ -91,8 +91,8 @@ try:
 
 except IndexError:
     warnings.warn('NOTE: One of the arguments is missing\nUsing Default parameters ' \
-                  'for both max_depth and min_size\nSetting:\nmax_depth = 1 to 10 \nmin_size = 10 \n', stacklevel=2)
-    max_depth = range(1,11)
+                  'for both max_depth and min_size\nSetting:\nmax_depth = 2 to 15 \nmin_size = 10 \n', stacklevel=2)
+    max_depth = range(2,15)
     min_size = 10
     folds=5
     call2()
